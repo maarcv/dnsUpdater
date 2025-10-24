@@ -2,7 +2,12 @@
 Crea / actualitza la ip pública a un registre A de Arsys
 
 ## Variables d'entorn necessàries:
-- ARSYS_LOGIN: elnomdeldomini.cat
-- ARSYS_API_KEY: clauApiDonadaPerArsys
-- ARSYS_DOMAIN: elnomdeldomini.cat
-- ARSYS_DNS: el.registre.que.volem.updatar.cat
+```
+# Credencials i paràmetres d'Arsys
+ARSYS_LOGIN=elteudomini.cat
+ARSYS_API_KEY=asegqwergwergwerg
+
+# Zona/registre a actualitzar
+ARSYS_DOMAIN=elteudomini.cat
+ARSYS_DNS=elteudomini.cat
+```

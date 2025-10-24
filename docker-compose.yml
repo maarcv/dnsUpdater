@@ -3,5 +3,5 @@ services:
     build:
       context: .
     container_name: dnsUpdater
-  env_file:
-    - .env
+    env_file:
+      - .env

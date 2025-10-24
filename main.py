@@ -12,16 +12,6 @@ import requests as r
 WSDL_URL = "https://api.servidoresdns.net:54321/hosting/api/soap/index.php?wsdl"
 
 def get_env(name: str) -> str:
-    if name == "ARSYS_LOGIN":
-        return "espaiartesania.cat"
-    elif name == "ARSYS_API_KEY":
-        return  "Rp6Jp0FT7zJmiI1ip9BxXBS5a"
-    elif name == "ARSYS_DOMAIN":
-        return "espaiartesania.cat"
-    elif name == "ARSYS_DNS":
-        return "espaiartesania.cat"
-
-
     val = os.environ.get(name)
     if not val:
         print(f"[ERROR] Falta la variable d'entorn: {name}", file=sys.stderr)
