@@ -1,0 +1,7 @@
+services:
+  api:
+    build:
+      context: .
+    container_name: dnsUpdater
+  env_file:
+    - .env
